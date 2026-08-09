@@ -10,5 +10,7 @@ fn main() {
     let b = i32::MAX;
     func();
     println!("{a}");
-    println!("{b}")
+    if b >= 1 {
+        println!("{b}");
+    }
 }
