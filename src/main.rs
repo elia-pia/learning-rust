@@ -1,8 +1,16 @@
 ///niente di utile
 fn func() {
-    println!("hello, world!🦀");
+    let mut d = 0;
+    loop {
+        println!("hello, world!🦀");
+        d = d + 1;
+        if d >= 5 {
+            break;
+        }
+    }
 }
 
+///ancora peggio
 fn main() {
     const Y: f32 = 0.2;
     let x: f32 = 0.1;
