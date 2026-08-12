@@ -24,8 +24,8 @@ fn main() {
     let var = if c { 5 } else { 10 };
     println!("var: {}", var);
     func();
-    for numero in (0..5) {
-        for i in (0..numero + 1) {
+    for numero in 0..5 {
+        for _i in 0..numero + 1 {
             print!("*");
         }
         println!();
