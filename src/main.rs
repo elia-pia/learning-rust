@@ -24,8 +24,10 @@ fn main() {
     let var = if c { 5 } else { 10 };
     println!("var: {}", var);
     func();
-    for numero in (1..11).rev() {
-        println!("{numero}");
+    for numero in (0..5) {
+        for i in (0..numero + 1) {
+            print!("*");
+        }
+        println!();
     }
-    println!("via");
 }
