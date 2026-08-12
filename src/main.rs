@@ -3,7 +3,7 @@ fn func() {
     let mut d = 0;
     loop {
         println!("hello, world!🦀");
-        d = d + 1;
+        d += 1;
         if d >= 5 {
             break;
         }
@@ -24,4 +24,8 @@ fn main() {
     let var = if c { 5 } else { 10 };
     println!("var: {}", var);
     func();
+    for numero in (1..11).rev() {
+        println!("{numero}");
+    }
+    println!("via");
 }
