@@ -1,0 +1,11 @@
+# Build artifacts (regenerable with `cargo build`)
+target/
+
+# Rust backup files
+*.rs.bk
+
+# Editor / OS junk
+.vscode/
+.idea/
+.DS_Store
+*.swp
